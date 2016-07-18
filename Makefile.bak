@@ -1,0 +1,3 @@
+all:
+		arm-linux-gcc color.c server.c  -lts -lpthread
+		cp a.out /work/rootfs/test/
